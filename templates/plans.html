@@ -1,0 +1,152 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlockCam</title>
+    <style>
+       body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('https://i.pinimg.com/564x/ac/1b/8f/ac1b8f02ca2c662ace2fa6314cf94568.jpg') no-repeat center center fixed; /* Replace with your background image URL */
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .box {
+            width: 300px;
+            padding: 20px;
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .box h1 {
+            margin: 0 0 20px;
+            font-size: 24px;
+            color: #333;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+
+        .container h1 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .button {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            margin: 15px 0;
+            font-size: 1.2rem;
+            color: white;
+            background-color: #ff6600;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: #cc5200;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>BlockCam</h1>
+        <a href="/video" class="button">High Security</a>
+        <a href="/video" class="button">Low Security</a>
+    </div>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlockCam</title>
+    <style>
+       body {
+            margin: 0;
+            padding: 0;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif , sans-serif;
+            background: url('data:image/jpeg;base64,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') no-repeat center center fixed; /* Replace with your background image URL */
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .box {
+            width: 300px;
+            padding: 20px;
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .box h1 {
+            margin: 0 0 20px;
+            font-size: 24px;
+            color: #333;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+
+        .container h1 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .button {
+            display: block;
+            width: 90%;
+            padding: 15px;
+            margin: 15px 0;
+            font-size: 1.2rem;
+            color: white;
+            background-color: #181275;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: #cc5200;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>BlockCam</h1>
+        <a href="/abc" class="button">High Security</a>
+        <a href="/abc" class="button">Low Security</a>
+    </div>
+</body>
+</html>
